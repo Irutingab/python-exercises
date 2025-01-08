@@ -1,0 +1,2 @@
+Good Morning, Students!
+This is a simple read/write file example in Python.

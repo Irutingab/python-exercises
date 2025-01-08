@@ -1,0 +1,51 @@
+{
+    "Raissa": {
+        "name": "Raissa",
+        "age": 19,
+        "parents": [
+            "Antoine",
+            "Fides"
+        ]
+    },
+    "Cristal": {
+        "name": "Cristal",
+        "age": 20,
+        "parents": [
+            "Bedz",
+            "Christella"
+        ]
+    },
+    "Mge": {
+        "name": "Mge",
+        "age": 17,
+        "parents": [
+            "Fides",
+            "Antoine"
+        ]
+    },
+    "wSDSCd": {
+        "name": "wSDSCd",
+        "age": 23,
+        "parents": []
+    },
+    "Tessy": {
+        "name": "Tessy",
+        "age": 21,
+        "parents": [
+            "Chloe",
+            "pdkopfkc"
+        ]
+    },
+    "Roxanne": {
+        "name": "Roxanne",
+        "age": 21,
+        "parents": []
+    },
+    "Harmony": {
+        "name": "Harmony",
+        "age": 22,
+        "parents": [
+            "Claudine"
+        ]
+    }
+}
