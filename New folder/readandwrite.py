@@ -1,6 +1,7 @@
 def writetofile(filename, content):
     with open(filename, "w") as file:
         file.write(content)
+        
         print(f"Content written to {filename}.")
 
 def readfromfile(filename):
@@ -15,7 +16,8 @@ def readfromfile(filename):
 # Example 
 filename = "example.txt"
 content_to_write = """Good Morning, Students!
-This is a simple read/write file example in Python."""
+This is a simple read/write file example in Python.
+You might consider trying to do the same!"""
 
 writetofile(filename, content_to_write)
 
