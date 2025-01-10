@@ -99,10 +99,10 @@ def update_student_info():
             if cursor.fetchone():
                 print("Error: This email already exists!")
                 
-                with open('duplicate_emails.csv', 'a', newline='') as file:
+                with open('failedstudents.csv', 'a', newline='') as file:
                     writer = csv.writer(file)
                     writer.writerow([new_email])
-                print(f"Duplicate email {new_email} saved to 'duplicate_emails.csv'.")
+                print(f"Duplicate email {new_email} saved to 'failedstudents.csv'.")
             else:
                 cursor.execute("UPDATE students_records SET email = %s WHERE email = %s", (new_email, email_to_update))
                 conn.commit()
